@@ -3,22 +3,12 @@ import { v4 as uuidv4 } from 'uuid';
 function chillHop() {
   return [
     {
-      name: ' Girls Like You',
-      artist: 'Maroon 5 x Cardi B',
-      cover:
-        'https://www.quirkybyte.com/wp-content/uploads/2018/12/Girls-Like-You-Mp3-Song-Download.jpg',
-      id: uuidv4(),
-      active: true,
-      color: ['#454545', '#3E3E3E'],
-      audio: 'http://opradre.com/wp-content/uploads/2019/05/Girls-like-you.mp3',
-    },
-    {
       name: 'Aurora',
       artist: 'Runway',
       cover:
         'https://gaanesunlo.com/wp-content/uploads/2021/04/Aurora-Runaway-mp3-Download-Aurora-Runaway-download.jpeg',
       id: uuidv4(),
-      active: false,
+      active: true,
       color: ['#D7CFC4', '#2D2033'],
       audio:
         '				https://geetsongs.com/wp-content/uploads/2021/04/AURORA-Runaway.mp3',
